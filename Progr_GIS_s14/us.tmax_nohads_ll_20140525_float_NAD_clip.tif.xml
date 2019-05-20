@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata xml:lang="ru"><Esri><CreaDate>20160426</CreaDate><CreaTime>15362400</CreaTime><ArcGISFormat>1.0</ArcGISFormat><SyncOnce>TRUE</SyncOnce><DataProperties><lineage><Process ToolSource="c:\program files (x86)\arcgis\desktop10.1\ArcToolbox\Toolboxes\Spatial Analyst Tools.tbx\ExtractByMask" Date="20160426" Time="153624">ExtractByMask us.tmax_nohads_ll_20140525_float_NAD.tif us_boundaries C:\Users\Sheol\Desktop\arcGis\S3\Progr_GIS_s3\us.tmax_nohads_ll_20140525_float_NAD_clip.tif</Process></lineage></DataProperties></Esri></metadata>

@@ -1,0 +1,895 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+	<idinfo>
+		<citation>
+			<citeinfo>
+				<origin>Cartography/GIS Section, Washington State Department of Transportation</origin>
+				<pubdate>20090610</pubdate>
+				<title>State Routes of Washington State 1:24,000 (2008), Unrouted Lines</title>
+				<geoform>vector digital data</geoform>
+				<pubinfo>
+					<pubplace>Olympia, Washington</pubplace>
+					<publish>Washington State Department of Transportation</publish>
+				</pubinfo>
+				<ftname Sync="TRUE">StateRoutes</ftname><onlink Sync="TRUE">\\ASROCK\C$\Data\Project2_Originals\StateRoutes</onlink></citeinfo>
+		</citation>
+		<descript>
+			<abstract>State Routes are depicted as lines with State Route identifiers.</abstract>
+			<purpose>This data set is used:  1)for general-purpose base mapping; 2)as a  Linear Referencing System (LRS); 3) for locating features on the State Route network by State Route Accumulated Route Mileage (dynamic segmentation).  This dataset is a snapshot of the roadway system, effective 12/31/2008, also known as the 2008 LRS.</purpose>
+			<supplinf>San Juan County contains no State Routes. This release of the State Highway LRS, continues with the road alignments being matched to orthoimagery and the GPS/LRS.</supplinf>
+			<langdata Sync="TRUE">en</langdata></descript>
+		<timeperd>
+			<timeinfo>
+				<sngdate>
+					<caldate>20081231</caldate>
+				</sngdate>
+			</timeinfo>
+			<current>publication date</current>
+		</timeperd>
+		<status>
+			<progress>Complete</progress>
+			<update>Annually</update>
+		</status>
+		<spdom>
+			<bounding>
+				<westbc>-124.675220</westbc>
+				<eastbc>-116.861383</eastbc>
+				<northbc>49.042511</northbc>
+				<southbc>45.504772</southbc>
+			</bounding>
+			<lboundng><leftbc Sync="TRUE">637234.667000</leftbc><rightbc Sync="TRUE">2514549.617000</rightbc><bottombc Sync="TRUE">87414.604000</bottombc><topbc Sync="TRUE">1353168.837000</topbc></lboundng></spdom>
+		<keywords>
+			<theme>
+				<themekt>None</themekt>
+				<themekey>highway</themekey>
+				<themekey>SR</themekey>
+				<themekey>state route</themekey>
+				<themekey>LRS</themekey>
+			</theme>
+			<place>
+				<placekt>None</placekt>
+				<placekey>Washington</placekey>
+				<placekey>WA</placekey>
+				<placekey>United States</placekey>
+				<placekey>USA</placekey>
+				<placekey>Pacific Northwest</placekey>
+			</place>
+		</keywords>
+		<accconst>none</accconst>
+		<useconst>none</useconst>
+		<ptcontac>
+			<cntinfo>
+				<cntperp>
+					<cntper>Ron Cihon</cntper>
+					<cntorg>Geographic Services, Washington State Department of Transportation</cntorg>
+				</cntperp>
+				<cntpos>GIS/Cartography Supervisor</cntpos>
+				<cntaddr>
+					<addrtype>physical address</addrtype>
+					<address>818 79th Ave SE</address>
+					<city>Tumwater</city>
+					<state>WA</state>
+					<postal>98501</postal>
+					<country>USA</country>
+				</cntaddr>
+				<cntaddr>
+					<addrtype>mailing address</addrtype>
+					<address>PO Box 47384</address>
+					<city>Olympia</city>
+					<state>WA</state>
+					<postal>98504-7384</postal>
+					<country>USA</country>
+				</cntaddr>
+				<cntvoice>360-596-8920</cntvoice>
+				<cntemail>cihonr@wsdot.wa.gov</cntemail>
+			</cntinfo>
+		</ptcontac>
+		<datacred>Cartography/ GIS section, Washington State Department of Transportation</datacred>
+		<native>Microsoft Windows XP Version 5.1 (Build 2600) Service Pack 2; ESRI ArcCatalog 9.2.6.1500</native>
+		<natvform Sync="TRUE">Shapefile</natvform></idinfo>
+	<dataqual>
+		<attracc>
+			<attraccr>State Route numbers and Accumulated Route Mileage values were obtained from the 2008 State Highway Log.</attraccr>
+		</attracc>
+		<logic>These data form a network representing the connectivity of State Routes (SR's) for Washington state. Nodes occur at SR endpoints and at points of intersection with other SR's, ramps, bridges, and county boundaries.  This includes all State Routes, US Routes, Interstates, Frontage Roads, Local Access ramps, Ferry Terminals and some Proposed routes located within the TRIPS database.</logic>
+		<complete>The data set contains all of the state routes in the state of Washington.</complete>
+		<posacc>
+			<horizpa>
+				<horizpar>Positional accuracy of this data set has not been determined.</horizpar>
+			</horizpa>
+		</posacc>
+		<lineage>
+			<srcinfo>
+				<srccite>
+					<citeinfo>
+						<origin>Cartography Section, Washington State Department of Transportation</origin>
+						<title>WSDOT 7.5 Minute Quadrangle</title>
+						<geoform>map</geoform>
+						<serinfo>
+							<sername>WSDOT 7.5 Minute Quadrangles</sername>
+						</serinfo>
+						<pubinfo>
+							<pubplace>Olympia, Washington</pubplace>
+							<publish>Washington State Department of Transportation</publish>
+						</pubinfo>
+						<othercit>The WSDOT 7.5 Minute Quadrangle Series is based on 7.5 minute U.S. Geological Survey quadrangles. Selected features were digitized by WSDOT Cartography Section staff, including revisions compiled by the Cartography Section.</othercit>
+					</citeinfo>
+				</srccite>
+				<srcscale>24000</srcscale>
+				<typesrc>online</typesrc>
+				<srctime>
+					<timeinfo>
+						<sngdate>
+							<time>unknown</time>
+						</sngdate>
+					</timeinfo>
+				</srctime>
+				<srccitea>WSDOT 7.5 Min Quad</srccitea>
+				<srccontr>The graphics depicting increasing and decreasing Accumulated Route Mileage values for state routes and ramps in each Washington State county.</srccontr>
+			</srcinfo>
+			<srcinfo>
+				<srccite>
+					<citeinfo>
+						<origin>Washington State Department of Natural Resources</origin>
+						<title>DNR orthoimagery</title>
+						<geoform>remote-sensing image</geoform>
+						<pubinfo>
+							<pubplace>Olympia, Washington</pubplace>
+							<publish>Washington State Department of Natural Resources</publish>
+						</pubinfo>
+						<othercit>See \gisosc\geodata\imagery\high-res\DNR\dnrorthoinfo.shp for more information on currentness dates.</othercit>
+					</citeinfo>
+				</srccite>
+				<srcscale>24000</srcscale>
+				<typesrc>online</typesrc>
+				<srctime>
+					<timeinfo>
+						<sngdate>
+							<time>unknown</time>
+						</sngdate>
+					</timeinfo>
+				</srctime>
+				<srccitea>DNR orthoimagery</srccitea>
+				<srccontr>The highways in this layer were realigned to match the orthoimagery from DNR primarily, but sometimes WSDOT or Nies Mapping Group, Inc. orthoimagery was used.</srccontr>
+			</srcinfo>
+			<srcinfo>
+				<srccite>
+					<citeinfo>
+						<origin>WSDOT Transportation Data Office</origin>
+						<title>TDO Interchange Diagrams</title>
+						<pubinfo>
+							<pubplace>Olympia, Washington</pubplace>
+							<publish>WSDOT Transportation Data Office</publish>
+						</pubinfo>
+						<onlink>http://www.wsdot.wa.gov/mapsdata/tdo/Interchange/default.htm</onlink>
+					</citeinfo>
+				</srccite>
+				<srctime>
+					<timeinfo>
+						<sngdate>
+							<time>Unknown</time>
+						</sngdate>
+					</timeinfo>
+				</srctime>
+				<srccitea>TDO Interchange Diagrams</srccitea>
+				<srccontr>These diagrams provide Accumulated Route Mile (ARM) values as assigned by the Transportation Data Office for use in updating attributes.</srccontr>
+			</srcinfo>
+			<srcinfo>
+				<srccite>
+					<citeinfo>
+						<origin>WSDOT Photogrammetry Office</origin>
+						<title>WSDOT Orthoimagery</title>
+						<pubinfo>
+							<pubplace>Olympia, Washington</pubplace>
+							<publish>WSDOT Photogrammetry Office</publish>
+						</pubinfo>
+						<othercit>Several images of varying scale and date were used. For more information see \gisosc\geodata\imagery\ortho-metadata.htm</othercit>
+					</citeinfo>
+				</srccite>
+				<srctime>
+					<timeinfo>
+						<sngdate>
+							<time>Unknown</time>
+						</sngdate>
+					</timeinfo>
+				</srctime>
+				<srccitea>WSDOT Orthoimagery</srccitea>
+				<srccontr>The highways in this layer were realigned to match the orthoimagery from DNR primarily, but sometimes WSDOT or Nies Mapping Group, Inc. orthoimagery was used.</srccontr>
+			</srcinfo>
+			<srcinfo>
+				<srccite>
+					<citeinfo>
+						<origin>Nies Mapping Group, Inc.</origin>
+						<title>Nies Mapping Group, Inc. Orthoimagery</title>
+						<pubinfo>
+							<pubplace>Washington</pubplace>
+							<publish>Nies Maping Group</publish>
+						</pubinfo>
+						<othercit>This image was only used in King County where other imagery was unavailable.</othercit>
+					</citeinfo>
+				</srccite>
+				<srctime>
+					<timeinfo>
+						<sngdate>
+							<time>unknown</time>
+						</sngdate>
+					</timeinfo>
+				</srctime>
+				<srccitea>Nies Mapping Group, Inc. Orthoimagery</srccitea>
+				<srccontr>The highways in this layer were realigned to match the orthoimagery from DNR primarily, but sometimes WSDOT or Nies Mapping Group, Inc. orthoimagery was used.</srccontr>
+			</srcinfo>
+			<srcinfo>
+				<srccite>
+					<citeinfo>
+						<origin>Transportation Data Office</origin>
+						<title>State Highway Log</title>
+						<geoform>document</geoform>
+						<pubinfo>
+							<pubplace>Tumwater, Washington</pubplace>
+							<publish>Washington State Department of Transportation</publish>
+						</pubinfo>
+						<onlink>http://www.wsdot.wa.gov/mapsdata/tdo/statehighwaylog.htm</onlink>
+					</citeinfo>
+				</srccite>
+				<srctime>
+					<timeinfo>
+						<sngdate>
+							<time>unknown</time>
+						</sngdate>
+					</timeinfo>
+				</srctime>
+				<srccitea>WSDOT Road Log</srccitea>
+				<srccontr>Current LRS uses the 2008 road log.  This road log spans data from 1/1/2008 - 12/31/2008 in the Transportation Information and Planning Support System(TRIPS).</srccontr>
+			</srcinfo>
+			<srcinfo>
+				<srccitea>NAIP Orthoimagery</srccitea>
+				<srccontr>for adjustment of roadway geometry</srccontr>
+			</srcinfo>
+			<procstep>
+				<procdesc>The source file was digitized from 7.5 minute USGS quadrangles using Intergraph's Microstation software.  The Microstation DGN file was converted to an Arc/Info coverage with the Arc command ""IGDSARC"" and transformed to geographic coordinates with Arc commands ""PROJECTDEFINE"" and ""PROJECT.""  Attributes were added to the linework and routes were created with the ""ARCSECTION""  command based on Accumulated Route Mileage.</procdesc>
+				<srcused>WSDOT 7.5 Min Quad</srcused>
+				<procdate>19960101</procdate>
+				<proccont>
+					<cntinfo>
+						<cntperp>
+							<cntper>Marci Carte</cntper>
+							<cntorg>Geographic Services, Washington State Department of Transportation</cntorg>
+						</cntperp>
+						<cntpos>GIS Analyst</cntpos>
+						<cntaddr>
+							<addrtype>physical address</addrtype>
+							<address>1655 S. 2nd Avenue</address>
+							<city>Tumwater</city>
+							<state>WA</state>
+							<postal>98512</postal>
+							<country>USA</country>
+						</cntaddr>
+						<cntaddr>
+							<addrtype>mailing address</addrtype>
+							<address>
+Mail Stop: 7384
+
+PO Box 47384
+</address>
+							<city>Olympia</city>
+							<state>WA</state>
+							<postal>98504-7384</postal>
+							<country>USA</country>
+						</cntaddr>
+						<cntvoice>360-709-5512</cntvoice>
+						<cntfax>360-709-5599</cntfax>
+						<cntemail>cartem@wsdot.wa.gov</cntemail>
+					</cntinfo>
+				</proccont>
+			</procstep>
+			<procstep>
+				<procdesc>The route and section tables were deleted from a copy of the existing state route files.  Graphic and attribute updating were done using Desktop ArcInfo 8's ArcMap with WSDOT 7.5 minute quads for reference.  New routes were created using aml's in ArcInfo.</procdesc>
+				<srcused>WSDOT 7.5 Min Quad</srcused>
+				<procdate>20001001</procdate>
+				<proccont>
+					<cntinfo>
+						<cntperp>
+							<cntper>Allen Blake</cntper>
+							<cntorg>Transportation Data Office, Washington State Department of Transportation</cntorg>
+						</cntperp>
+						<cntpos>GIS/GPS  Analyst</cntpos>
+						<cntaddr>
+							<addrtype>mailing address</addrtype>
+							<address>PO Box 47380</address>
+							<city>Olympia</city>
+							<state>WA</state>
+							<postal>98504-7380</postal>
+							<country>USA</country>
+						</cntaddr>
+						<cntaddr>
+							<addrtype>physical address</addrtype>
+							<address>7345 Linderson Way SW</address>
+							<city>Tumwater</city>
+							<state>WA</state>
+							<postal>98501-6504</postal>
+							<country>USA</country>
+						</cntaddr>
+						<cntvoice>360-570-2363</cntvoice>
+						<cntemail>blaket@wsdot.wa.gov</cntemail>
+					</cntinfo>
+				</proccont>
+			</procstep>
+			<procstep>
+				<procdesc>Existing lines from the previous LRS (Washington State Highways, 2000) were realigned to match orthoimagery. Three columns were added to the table of attributes. They are: Display, Rt_typeA, &amp; Rt_typeB. A .dbf file containing values to be used was joined and the attribute values for the new columns were calculated. Routes were calculated while the coverage was in Washington State Plane South NAD 83 coordinate system. The coverage was then projected into Geographic NAD83.</procdesc>
+				<procdate>20031128</procdate>
+				<proccont>
+					<cntinfo>
+						<cntperp>
+							<cntper>Jordyn Mitchell</cntper>
+							<cntorg>GIS/Cartography Section, Washington State Department of Transportation</cntorg>
+						</cntperp>
+						<cntaddr>
+							<addrtype>mailing address</addrtype>
+							<address>PO Box 47384</address>
+							<city>Olympia</city>
+							<state>WA</state>
+							<postal>98504-7384</postal>
+							<country>USA</country>
+						</cntaddr>
+						<cntaddr>
+							<addrtype>physical address</addrtype>
+							<address>1655 South Second Avenue</address>
+							<city>Olympia</city>
+							<state>WA</state>
+							<postal>98512</postal>
+							<country>USA</country>
+						</cntaddr>
+						<cntvoice>360-709-5517</cntvoice>
+						<cntfax>360-709-5599</cntfax>
+						<cntemail>MitcheJo@wsdot.wa.gov</cntemail>
+					</cntinfo>
+				</proccont>
+			</procstep>
+			<procstep>
+				<procdesc>Updates to the ramps and portions of the mainlines were completed in a geodatabase.  Polylines were then broken out by direction and built into routes  when the geodatabase was in Washington State Plane South NAD 83 coordinate system. The routes were then projected into Geographic NAD83.  Frontage Roads and Local access roads were included in this edition</procdesc>
+				<procdate>20041201</procdate>
+				<proccont>
+					<cntinfo>
+						<cntperp>
+							<cntper>Heather Spates</cntper>
+							<cntorg>Washington State Department of Transportation</cntorg>
+						</cntperp>
+						<cntpos>GIS Specialist/Cartographer</cntpos>
+						<cntvoice>360-570-2356</cntvoice>
+						<cntemail>Spatesh@wsdot.wa.gov</cntemail>
+						<hours>0800 to 1530 Pacific Time, M-F</hours>
+						<cntinst>Contact by e-mail is prefered.</cntinst>
+					</cntinfo>
+				</proccont>
+			</procstep>
+			<procstep>
+				<procdesc>Ferry Terminals located in the TRIPS system and selected Proposed routes( found both in trips and other records) are included in this edition.  Ferry terminals were located via orthophotos or the end of cartographically drawn ferry routes. Proposed route linework are compiled from paper contract sheets.</procdesc>
+				<procdate>20060116</procdate>
+				<proccont>
+					<cntinfo>
+						<cntperp>
+							<cntper>Heather Spates</cntper>
+							<cntorg>WSDOT</cntorg>
+						</cntperp>
+						<cntvoice>(360)570-2356</cntvoice>
+						<cntfax>(360)570-2400</cntfax>
+						<cntemail>spatesh@wsdot.wa.gov</cntemail>
+					</cntinfo>
+				</proccont>
+			</procstep>
+			<procstep>
+				<procdesc>4 new attributes were added with the 2005B update.  SRID, RID, RRT, RRQ.  These were added to enable easier sorting and selecting of records.  These were derived from the SR field.</procdesc>
+				<procdate>7/24/2006</procdate>
+				<proccont>
+					<cntinfo>
+						<cntperp>
+							<cntper>Jordyn Mitchell</cntper>
+							<cntorg>WSDOT</cntorg>
+						</cntperp>
+						<cntpos>Assistant GIS Database Administrator</cntpos>
+						<cntvoice>360-705-7645</cntvoice>
+						<cntemail>mitchejo@wsdot.wa.gov</cntemail>
+					</cntinfo>
+				</proccont>
+			</procstep>
+			<procstep>
+				<procdesc>
+The 2007 LRS is an update of the 2006 LRS. A copy of the Lines file of the 2006 LRS was updated using 
+using the 2007 Highway Log, GPS LRS, orthophotos, highway contract plans, and WSDOT project websites. 
+
+Polylines were then broken out by direction and built into routes.
+</procdesc>
+				<procdate>20080521</procdate>
+				<proccont>
+					<cntinfo>
+						<cntperp>
+							<cntper>Julie Fogde</cntper>
+							<cntorg>Washington State Dept. of Transportation, Geographic Services, CGIS</cntorg>
+						</cntperp>
+						<cntpos>GIS Training Coordinator</cntpos>
+						<cntvoice>360 596-8919</cntvoice>
+						<cntemail>fogdej@wsdot.wa.gov</cntemail>
+					</cntinfo>
+				</proccont>
+			</procstep>
+			<procstep>
+				<procdesc>The LRS data was edited to reflect changes in the state highway system according to the 2008 Washington State Road Log.</procdesc>
+				<procdate>20090603</procdate>
+				<proccont>
+					<cntinfo>
+						<cntperp>
+							<cntper>Derek Drake</cntper>
+							<cntorg>Washington State Department of Transportation Cartography and GIS</cntorg>
+						</cntperp>
+						<cntpos>GIS Analyst</cntpos>
+						<cntvoice>360-596-8923</cntvoice>
+						<cntemail>draked@wsdot.wa.gov</cntemail>
+					</cntinfo>
+				</proccont>
+			</procstep>
+			<procstep><procdesc Sync="TRUE">Dataset copied.</procdesc><srcused Sync="TRUE">W:\Public\DOT\GIS\2008LRS\SR24kLRSLinesSPS</srcused><procdate Sync="TRUE">20090625</procdate><proctime Sync="TRUE">17492500</proctime></procstep><procstep><procdesc Sync="TRUE">Dataset copied.</procdesc><srcused Sync="TRUE">C:\Data\Washington\sr24k\24K\SR24kLRSLinesSPS</srcused><procdate Sync="TRUE">20100102</procdate><proctime Sync="TRUE">09391700</proctime></procstep><procstep><procdesc Sync="TRUE">Dataset copied.</procdesc><srcused Sync="TRUE"></srcused><procdate Sync="TRUE">20100102</procdate><proctime Sync="TRUE">10051300</proctime></procstep><procstep><procdesc Sync="TRUE">Dataset copied.</procdesc><srcused Sync="TRUE">C:\Data\Project2_Practice\StateRoutes</srcused><procdate Sync="TRUE">20100102</procdate><proctime Sync="TRUE">10064400</proctime></procstep></lineage>
+	</dataqual>
+	<spdoinfo>
+		<indspref>State Route and Accumulated Route Mileage</indspref>
+		<direct>Vector</direct>
+		<ptvctinf>
+			<sdtsterm Name="StateRoutes">
+				<sdtstype>String</sdtstype>
+				<ptvctcnt>15054</ptvctcnt>
+			</sdtsterm>
+			<esriterm Name="StateRoutes"><efeatyp Sync="TRUE">Simple</efeatyp><efeageom Sync="TRUE">Polyline</efeageom><esritopo Sync="TRUE">FALSE</esritopo><efeacnt Sync="TRUE">15054</efeacnt><spindex Sync="TRUE">FALSE</spindex><linrefer Sync="TRUE">FALSE</linrefer></esriterm></ptvctinf>
+	</spdoinfo>
+	<spref>
+		<horizsys>
+			<planar>
+				<planci>
+					<plance>coordinate pair</plance>
+					<coordrep>
+						<absres>0.001000</absres>
+						<ordres>0.001000</ordres>
+					</coordrep>
+					<plandu>survey feet</plandu>
+				</planci>
+				<mapproj><mapprojn Sync="TRUE">Lambert Conformal Conic</mapprojn><lambertc><stdparll Sync="TRUE">45.833333</stdparll><stdparll Sync="TRUE">47.333333</stdparll><longcm Sync="TRUE">-120.500000</longcm><latprjo Sync="TRUE">45.333333</latprjo><feast Sync="TRUE">1640416.666667</feast><fnorth Sync="TRUE">0.000000</fnorth></lambertc></mapproj></planar>
+			<geodetic>
+				<horizdn>D_North_American_1983_HARN</horizdn>
+				<ellips>Geodetic Reference System 80</ellips>
+				<semiaxis>6378137.000000</semiaxis>
+				<denflat>298.257222</denflat>
+			</geodetic>
+			<cordsysn><geogcsn Sync="TRUE">GCS_North_American_1983_HARN</geogcsn><projcsn Sync="TRUE">NAD_1983_HARN_StatePlane_Washington_South_FIPS_4602_Feet</projcsn></cordsysn></horizsys>
+		<vertdef>
+			<altsys>
+				<altres>1.000000</altres>
+				<altenc>Explicit elevation coordinate included with horizontal coordinates</altenc>
+			</altsys>
+		</vertdef>
+	</spref>
+	<eainfo>
+		<detailed Name="StateRoutes">
+			<enttyp>
+				<enttypl>TransFeatures.BASE.SR24kLRSLinesSPS</enttypl>
+				<enttypd>Washington State Department of Transportation (WSDOT) highways, including interstate, U.S., and state routes.</enttypd>
+				<enttypds>2008 State Highway Log</enttypds>
+				<enttypt Sync="TRUE">Feature Class</enttypt><enttypc Sync="TRUE">15054</enttypc></enttyp>
+			<attr>
+				<attrlabl>BARM</attrlabl>
+				<attrdef>Beginning ARM value for a given segment</attrdef>
+				<attrdefs>2008 WSDOT Road Log</attrdefs>
+				<attalias Sync="TRUE">BARM</attalias><attrtype Sync="TRUE">Number</attrtype><attwidth Sync="TRUE">19</attwidth><atnumdec Sync="TRUE">8</atnumdec></attr>
+			<attr>
+				<attrlabl>Shape</attrlabl>
+				<attrdef>Feature geometry.</attrdef>
+				<attrdefs>ESRI</attrdefs>
+				<attrdomv>
+					<udom>Coordinates defining the features.</udom>
+				</attrdomv>
+				<attalias Sync="TRUE">DIRECTION</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">2</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr>
+			<attr>
+				<attrlabl>DIRECTION</attrlabl>
+				<attrdef>Direction of Travel.  Increasing is generally South to North and West to East with a few exceptions.</attrdef>
+				<attrdomv>
+					<edom>
+						<edomv>b</edomv>
+						<edomvd>Both</edomvd>
+					</edom>
+				</attrdomv>
+				<attrdomv>
+					<edom>
+						<edomv>d</edomv>
+						<edomvd>Decreasing</edomvd>
+					</edom>
+				</attrdomv>
+				<attrdomv>
+					<edom>
+						<edomv>i</edomv>
+						<edomvd>Increasing</edomvd>
+					</edom>
+				</attrdomv>
+				<attrdomv>
+					<edom>
+						<edomv>r</edomv>
+						<edomvd>Ramp</edomvd>
+					</edom>
+				</attrdomv>
+				<attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">2</attwidth><attalias Sync="TRUE">DISPLAY</attalias></attr>
+			<attr>
+				<attrlabl>DISPLAY</attrlabl>
+				<attrdef>Labels for shields.  Ferry terminals are labeled FT.</attrdef>
+				<attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">8</attwidth><attalias Sync="TRUE">EARM</attalias></attr>
+			<attr>
+				<attrlabl>EARM</attrlabl>
+				<attrdef>Ending ARM value for a given segment</attrdef>
+				<attrdefs>2008 WSDOT Road Log</attrdefs>
+				<attrtype Sync="TRUE">Number</attrtype><attwidth Sync="TRUE">19</attwidth><attalias Sync="TRUE">REGION</attalias><atnumdec Sync="TRUE">8</atnumdec></attr>
+			<attr>
+				<attrlabl>REGION</attrlabl>
+				<attrdef>WSDOT Region</attrdef>
+				<attrdomv>
+					<edom>
+						<edomv>EA</edomv>
+						<edomvd>Eastern</edomvd>
+					</edom>
+				</attrdomv>
+				<attrdomv>
+					<edom>
+						<edomv>NC</edomv>
+						<edomvd>North Central</edomvd>
+					</edom>
+				</attrdomv>
+				<attrdomv>
+					<edom>
+						<edomv>NW</edomv>
+						<edomvd>North West</edomvd>
+					</edom>
+				</attrdomv>
+				<attrdomv>
+					<edom>
+						<edomv>OL</edomv>
+						<edomvd>Olympic</edomvd>
+					</edom>
+				</attrdomv>
+				<attrdomv>
+					<edom>
+						<edomv>SC</edomv>
+						<edomvd>South Central</edomvd>
+					</edom>
+				</attrdomv>
+				<attrdomv>
+					<edom>
+						<edomv>SW</edomv>
+						<edomvd>South West</edomvd>
+					</edom>
+				</attrdomv>
+				<attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">2</attwidth><attalias Sync="TRUE">RID</attalias></attr>
+			<attr>
+				<attrlabl>RID</attrlabl>
+				<attrdef>Route ID number</attrdef>
+				<attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">3</attwidth><attalias Sync="TRUE">RRQ</attalias></attr>
+			<attr>
+				<attrlabl>RRQ</attrlabl>
+				<attrdef>Related Roadway Qualifier (6 character field that uniquely identifies the RRT since there may be more than one of the same types of RRT for a route.)</attrdef>
+				<attrdefs>2008 WSDOT Road Log</attrdefs>
+				<attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">7</attwidth><attalias Sync="TRUE">RRT</attalias></attr>
+			<attr>
+				<attrlabl>RRT</attrlabl>
+				<attrdef>Related Roadway Type (two character abbreviation for a type of roadway)</attrdef>
+				<attrdefs>2008 WSDOT Road Log</attrdefs>
+				<attrdomv>
+					<edom>
+						<edomv>Null</edomv>
+						<edomvd>Mainline</edomvd>
+					</edom>
+				</attrdomv>
+				<attrdomv>
+					<edom>
+						<edomv>AR</edomv>
+						<edomvd>Alternate Route</edomvd>
+					</edom>
+				</attrdomv>
+				<attrdomv>
+					<edom>
+						<edomv>CO</edomv>
+						<edomvd>Couplet</edomvd>
+						<edomvds>Washington State Highway Log</edomvds>
+					</edom>
+				</attrdomv>
+				<attrdomv>
+					<edom>
+						<edomv>CD</edomv>
+						<edomvd>Collector Distributor Decreasing</edomvd>
+						<edomvds>Washington State Highway Log</edomvds>
+					</edom>
+				</attrdomv>
+				<attrdomv>
+					<edom>
+						<edomv>CI</edomv>
+						<edomvd>Collector Distributor Increasing</edomvd>
+						<edomvds>Washington State Highway Log</edomvds>
+					</edom>
+				</attrdomv>
+				<attrdomv>
+					<edom>
+						<edomv>CO</edomv>
+						<edomvd>Couplet</edomvd>
+						<edomvds>Washington State Highway Log</edomvds>
+					</edom>
+				</attrdomv>
+				<attrdomv>
+					<edom>
+						<edomv>FD</edomv>
+						<edomvd>Frontage Road Decreasing</edomvd>
+						<edomvds>Washington State Highway Log</edomvds>
+					</edom>
+				</attrdomv>
+				<attrdomv>
+					<edom>
+						<edomv>FI</edomv>
+						<edomvd>Frontage Road Increasing</edomvd>
+						<edomvds>Washington State Highway Log</edomvds>
+					</edom>
+				</attrdomv>
+				<attrdomv>
+					<edom>
+						<edomv>FT</edomv>
+						<edomvd>Ferry Terminal</edomvd>
+						<edomvds>Washington State Highway Log</edomvds>
+					</edom>
+				</attrdomv>
+				<attrdomv>
+					<edom>
+						<edomv>FU</edomv>
+						<edomvd>Future Route</edomvd>
+					</edom>
+				</attrdomv>
+				<attrdomv>
+					<edom>
+						<edomv>HD</edomv>
+						<edomvd>Grade-Seperated HOV Decreasing</edomvd>
+						<edomvds>Washington State Highway Log</edomvds>
+					</edom>
+				</attrdomv>
+				<attrdomv>
+					<edom>
+						<edomv>HI</edomv>
+						<edomvd>Grade Seperated HOV Increasing</edomvd>
+						<edomvds>Washington State Highway Log</edomvds>
+					</edom>
+				</attrdomv>
+				<attrdomv>
+					<edom>
+						<edomv>LX</edomv>
+						<edomvd>Crossroad within Interchange</edomvd>
+						<edomvds>Washington State Highway Log</edomvds>
+					</edom>
+				</attrdomv>
+				<attrdomv>
+					<edom>
+						<edomv>P1-P9</edomv>
+						<edomvd>Off Ramp, Increasing</edomvd>
+						<edomvds>Washington State Highway Log</edomvds>
+					</edom>
+				</attrdomv>
+				<attrdomv>
+					<edom>
+						<edomv>PR</edomv>
+						<edomvd>Proposed Route</edomvd>
+						<edomvds>Washington State Highway Log</edomvds>
+					</edom>
+				</attrdomv>
+				<attrdomv>
+					<edom>
+						<edomv>Q1-Q9</edomv>
+						<edomvd>On Ramp Increasing</edomvd>
+						<edomvds>Washington State Highway Log</edomvds>
+					</edom>
+				</attrdomv>
+				<attrdomv>
+					<edom>
+						<edomv>R1-R9</edomv>
+						<edomvd>Off Ramp Decreasing</edomvd>
+						<edomvds>Washington State Highway Log</edomvds>
+					</edom>
+				</attrdomv>
+				<attrdomv>
+					<edom>
+						<edomv>S1-S9</edomv>
+						<edomvd>On Ramp Decreasing</edomvd>
+						<edomvds>Washington State Highway Log</edomvds>
+					</edom>
+				</attrdomv>
+				<attrdomv>
+					<edom>
+						<edomv>RL</edomv>
+						<edomvd>Reversible Lane</edomvd>
+						<edomvds>Washington State Highway Log</edomvds>
+					</edom>
+				</attrdomv>
+				<attrdomv>
+					<edom>
+						<edomv>SP</edomv>
+						<edomvd>Spur</edomvd>
+						<edomvds>Washington State Highway Log</edomvds>
+					</edom>
+				</attrdomv>
+				<attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">2</attwidth><attalias Sync="TRUE">RT_TYPEA</attalias></attr>
+			<attr>
+				<attrlabl>RT_TYPEA</attrlabl>
+				<attrdef>Route Type (text)</attrdef>
+				<attrdomv>
+					<edom>
+						<edomv>IS</edomv>
+						<edomvd>Interstate Route</edomvd>
+					</edom>
+				</attrdomv>
+				<attrdomv>
+					<edom>
+						<edomv>US</edomv>
+						<edomvd>US Route</edomvd>
+					</edom>
+				</attrdomv>
+				<attrdomv>
+					<edom>
+						<edomv>RA</edomv>
+						<edomvd>Ramp</edomvd>
+					</edom>
+				</attrdomv>
+				<attrdomv>
+					<edom>
+						<edomv>SR</edomv>
+						<edomvd>State Route</edomvd>
+					</edom>
+				</attrdomv>
+				<attrdomv>
+					<edom>
+						<edomv>LC</edomv>
+						<edomvd>Local Road either frontage road of Local access approach.</edomvd>
+					</edom>
+				</attrdomv>
+				<attrdomv>
+					<edom>
+						<edomv>FT</edomv>
+						<edomvd>Ferry Terminal</edomvd>
+						<edomvds>Compiled from TRIPS database.</edomvds>
+					</edom>
+				</attrdomv>
+				<attrdomv>
+					<edom>
+						<edomv>PR</edomv>
+						<edomvd>Proposed Route</edomvd>
+						<edomvds>Compiled from TRIPS database with selected records that are not currently in the TRIPS database.</edomvds>
+					</edom>
+				</attrdomv>
+				<attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">2</attwidth><attalias Sync="TRUE">RT_TYPEB</attalias></attr>
+			<attr>
+				<attrlabl>RT_TYPEB</attrlabl>
+				<attrdef>Route Type (integer)</attrdef>
+				<attrdomv>
+					<edom>
+						<edomv>0</edomv>
+						<edomvd>State Route</edomvd>
+					</edom>
+					<udom Sync="TRUE">Coordinates defining the features.</udom></attrdomv>
+				<attrdomv>
+					<edom>
+						<edomv>1</edomv>
+						<edomvd>Interstate Route</edomvd>
+					</edom>
+					<udom Sync="TRUE">Coordinates defining the features.</udom></attrdomv>
+				<attrdomv>
+					<edom>
+						<edomv>2</edomv>
+						<edomvd>US Route</edomvd>
+					</edom>
+					<udom Sync="TRUE">Coordinates defining the features.</udom></attrdomv>
+				<attrdomv>
+					<edom>
+						<edomv>3</edomv>
+						<edomvd>Ramp</edomvd>
+					</edom>
+					<udom Sync="TRUE">Coordinates defining the features.</udom></attrdomv>
+				<attrdomv>
+					<edom>
+						<edomv>4</edomv>
+						<edomvd>Local Access approach (LX) Frontage Roads (FD, FI)</edomvd>
+					</edom>
+					<udom Sync="TRUE">Coordinates defining the features.</udom></attrdomv>
+				<attrdomv>
+					<edom>
+						<edomv>5</edomv>
+						<edomvd>Ferry Terminals (FT)</edomvd>
+					</edom>
+					<udom Sync="TRUE">Coordinates defining the features.</udom></attrdomv>
+				<attrdomv>
+					<edom>
+						<edomv>6</edomv>
+						<edomvd>Proposed Routes (PR)</edomvd>
+					</edom>
+					<udom Sync="TRUE">Coordinates defining the features.</udom></attrdomv>
+				<attrtype Sync="TRUE">Number</attrtype><attwidth Sync="TRUE">5</attwidth><attalias Sync="TRUE">Shape</attalias><attrdefs Sync="TRUE">ESRI</attrdefs></attr>
+			<attr>
+				<attrlabl>SHAPE</attrlabl>
+				<attrdef>Feature geometry.</attrdef>
+				<attrdefs>ESRI</attrdefs>
+				<attrdomv>
+					<udom>Coordinates defining the features.</udom>
+				</attrdomv>
+				<attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">12</attwidth><attalias Sync="TRUE">SRID</attalias><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr>
+			<attr>
+				<attrlabl>SRID</attrlabl>
+				<attrdef>State Route ID number (same as SR column)</attrdef>
+				<attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">12</attwidth><attalias Sync="TRUE">SR</attalias></attr>
+			<attr>
+				<attrlabl>SR</attrlabl>
+				<attrdef>A unique State Route identifier assigned by WSDOT's Transportation Data Office.  Every WSDOT highway in Washington state is assigned a State Route number, including interstates and U.S. Routes.</attrdef>
+				<attrdefs>TRIPS database</attrdefs>
+				<attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">12</attwidth><attalias Sync="TRUE">FID</attalias><attrdomv><udom Sync="TRUE">Sequential unique whole numbers that are automatically generated.</udom></attrdomv></attr>
+			<attr><attrlabl Sync="TRUE">FID</attrlabl><attalias Sync="TRUE">SHAPE_len</attalias><attrtype Sync="TRUE">Double</attrtype><attwidth Sync="TRUE">19</attwidth><attrdef Sync="TRUE">Internal feature number.</attrdef><attrdefs Sync="TRUE">ESRI</attrdefs><attrdomv><udom Sync="TRUE">Sequential unique whole numbers that are automatically generated.</udom></attrdomv><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">SHAPE_len</attrlabl><attalias Sync="TRUE">SHAPE_len</attalias><attrtype Sync="TRUE">Float</attrtype><attwidth Sync="TRUE">19</attwidth><atnumdec Sync="TRUE">11</atnumdec></attr></detailed>
+		<overview>
+			<eaover>The data set contains State Route numbers, direction, Beginning Accumulated Route Mileage, and Ending Accumulated Route Mileage for graphics depicting the state routes and  ramps.</eaover>
+		</overview>
+	</eainfo>
+	<distinfo>
+		<distrib>
+			<cntinfo>
+				<cntperp>
+					<cntper>Michelle Blake</cntper>
+					<cntorg>Washington State Department of Transportation</cntorg>
+				</cntperp>
+				<cntpos>GIS Data Administrator</cntpos>
+				<cntvoice>360-705-7797</cntvoice>
+				<cntfax>360-705-6817</cntfax>
+				<cntemail>blakem@wsdot.wa.gov</cntemail>
+				<cntinst>Call, email or write with requests for geo-spatial data sets.</cntinst>
+			</cntinfo>
+		</distrib>
+		<resdesc>\gisosc\geodata\maps\24k\dot_cartog\sr24k\sr24k and ArcSDE servers;  database: TransFeatures, owner: base, instance: 5151</resdesc>
+		<distliab>The Washington State Department of Transportation shall not be liable for any activity involving these data with regard to lost profits or savings or any other consequential damages; or the fitness for use of the data for a particular purpose; or the installation of the data, its use, or the results obtained.</distliab>
+		<stdorder>
+			<digform>
+				<digtinfo>
+					<formspec>Various formats are used: ESRI coverages and shapefiles, and data tables for placement as ArcView ""events."</formspec>
+					<formcont>The standard distribution compact disc contains all geospatial data sets created by the Washington State Dept. of Transportation. Refer to the included Geodata.txt text file for a brief description of the directory structure.</formcont>
+					<transize>2.742</transize>
+					<dssize Sync="TRUE">4.030</dssize></digtinfo>
+				<digtopt>
+					<offoptn>
+						<offmedia>CD-ROM</offmedia>
+					</offoptn>
+				</digtopt>
+			</digform>
+			<fees>none</fees>
+			<ordering>Call, email or write the Distributor with requests for geo-spatial data sets.</ordering>
+			<turnarnd>Generally, the standard compact disc containing all distributed data can be sent within one week of receiving a data request.</turnarnd>
+		</stdorder>
+	</distinfo>
+	<metainfo>
+		<metd>20090611</metd>
+		<metc>
+			<cntinfo>
+				<cntperp>
+					<cntper>Mark Bozanich</cntper>
+					<cntorg>Washington State Department of Transportation</cntorg>
+				</cntperp>
+				<cntpos>Research Cartographer</cntpos>
+				<cntaddr>
+					<addrtype>mailing address</addrtype>
+					<address>PO Box 47384</address>
+					<city>Olympia</city>
+					<state>Washington</state>
+					<postal>98504-7384</postal>
+					<country>USA</country>
+				</cntaddr>
+				<cntvoice>360-709-5520</cntvoice>
+				<cntemail>bozanim@wsdot.wa.gov</cntemail>
+				<hours>0800 to 1530 Pacific Time, M-F</hours>
+				<cntinst>Contact by e-mail is preferred.</cntinst>
+			</cntinfo>
+		</metc>
+		<metstdn>FGDC Content Standards for Digital Geospatial Metadata</metstdn>
+		<metstdv>FGDC-STD-001-1998</metstdv>
+		<mettc>local time</mettc>
+		<metac>none</metac>
+		<metuc>none</metuc>
+		<langmeta Sync="TRUE">en</langmeta><metextns><onlink Sync="TRUE">http://www.esri.com/metadata/esriprof80.html</onlink><metprof Sync="TRUE">ESRI Metadata Profile</metprof></metextns></metainfo>
+	<Esri><CreaDate>20100102</CreaDate><CreaTime>10064400</CreaTime><SyncOnce>FALSE</SyncOnce><SyncDate>20100102</SyncDate><SyncTime>09440200</SyncTime><ModDate>20100102</ModDate><ModTime>09440200</ModTime><DataProperties><lineage><Process ToolSource="C:\Program Files\ArcGIS\ArcToolbox\Toolboxes\Data Management Tools.tbx\Project" Date="20100102" Time="100514">Project C:\Data\Project2_Practice\StateRoutes.shp C:\Data\Project2_Practice\StateRoutes_Project.shp PROJCS['NAD_1983_StatePlane_Washington_South_FIPS_4602',GEOGCS['GCS_North_American_1983',DATUM['D_North_American_1983',SPHEROID['GRS_1980',6378137.0,298.257222101]],PRIMEM['Greenwich',0.0],UNIT['Degree',0.0174532925199433]],PROJECTION['Lambert_Conformal_Conic'],PARAMETER['False_Easting',500000.0],PARAMETER['False_Northing',0.0],PARAMETER['Central_Meridian',-120.5],PARAMETER['Standard_Parallel_1',45.83333333333334],PARAMETER['Standard_Parallel_2',47.33333333333334],PARAMETER['Latitude_Of_Origin',45.33333333333334],UNIT['Meter',1.0]] NAD_1983_To_HARN_WA_OR PROJCS['NAD_1983_HARN_StatePlane_Washington_South_FIPS_4602_Feet',GEOGCS['GCS_North_American_1983_HARN',DATUM['D_North_American_1983_HARN',SPHEROID['GRS_1980',6378137.0,298.257222101]],PRIMEM['Greenwich',0.0],UNIT['Degree',0.0174532925199433]],PROJECTION['Lambert_Conformal_Conic'],PARAMETER['False_Easting',1640416.666666667],PARAMETER['False_Northing',0.0],PARAMETER['Central_Meridian',-120.5],PARAMETER['Standard_Parallel_1',45.83333333333334],PARAMETER['Standard_Parallel_2',47.33333333333334],PARAMETER['Latitude_Of_Origin',45.33333333333334],UNIT['Foot_US',0.3048006096012192]]</Process></lineage></DataProperties><MetaID>{ED2625F3-A805-42C1-91E6-98F43FA4C181}</MetaID></Esri><distInfo><distributor><distorTran><onLineSrc><linkage Sync="TRUE">file://\\ASROCK\C$\Data\Project2_Originals\StateRoutes</linkage><protocol Sync="TRUE">Local Area Network</protocol><orDesc Sync="TRUE">002</orDesc></onLineSrc><transSize Sync="TRUE">4.030</transSize></distorTran><distorFormat><formatName Sync="TRUE">Shapefile</formatName></distorFormat></distributor></distInfo><dataIdInfo><envirDesc Sync="TRUE">Microsoft Windows Vista Version 6.0 (Build 6002) Service Pack 2; ESRI ArcCatalog 9.3.1.3000</envirDesc><dataLang><languageCode Sync="TRUE" value="en"></languageCode></dataLang><idCitation><resTitle Sync="TRUE">StateRoutes</resTitle><presForm><PresFormCd Sync="TRUE" value="005"></PresFormCd></presForm></idCitation><spatRpType><SpatRepTypCd Sync="TRUE" value="001"></SpatRepTypCd></spatRpType><dataExt><geoEle><GeoBndBox esriExtentType="native"><westBL Sync="TRUE">637234.667</westBL><eastBL Sync="TRUE">2514549.617</eastBL><northBL Sync="TRUE">1353168.837</northBL><southBL Sync="TRUE">87414.604</southBL><exTypeCode Sync="TRUE">1</exTypeCode></GeoBndBox></geoEle></dataExt><geoBox esriExtentType="decdegrees"><westBL Sync="TRUE">-124.674937</westBL><eastBL Sync="TRUE">-116.861308</eastBL><northBL Sync="TRUE">49.042695</northBL><southBL Sync="TRUE">45.504776</southBL><exTypeCode Sync="TRUE">1</exTypeCode></geoBox></dataIdInfo><mdLang><languageCode Sync="TRUE" value="en"></languageCode></mdLang><mdStanName Sync="TRUE">ISO 19115 Geographic Information - Metadata</mdStanName><mdStanVer Sync="TRUE">DIS_ESRI1.0</mdStanVer><mdChar><CharSetCd Sync="TRUE" value="004"></CharSetCd></mdChar><mdHrLv><ScopeCd Sync="TRUE" value="005"></ScopeCd></mdHrLv><mdHrLvName Sync="TRUE">dataset</mdHrLvName><refSysInfo><RefSystem><refSysID><identCode Sync="TRUE">NAD_1983_HARN_StatePlane_Washington_South_FIPS_4602_Feet</identCode></refSysID></RefSystem></refSysInfo><spatRepInfo><VectSpatRep><topLvl><TopoLevCd Sync="TRUE" value="001"></TopoLevCd></topLvl><geometObjs Name="StateRoutes"><geoObjTyp><GeoObjTypCd Sync="TRUE" value="001"></GeoObjTypCd></geoObjTyp><geoObjCnt Sync="TRUE">15054</geoObjCnt></geometObjs></VectSpatRep></spatRepInfo><mdDateSt Sync="TRUE">20100102</mdDateSt></metadata>

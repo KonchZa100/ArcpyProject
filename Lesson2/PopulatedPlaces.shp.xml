@@ -1,0 +1,562 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<metadata>
+	<idinfo>
+		<citation>
+			<citeinfo>
+				<origin>Data Management Services, Washington State Department of Transportation</origin>
+				<pubdate>5/21/2001</pubdate>
+				<title>Populated Places of Washington State</title>
+				<geoform Sync="TRUE">vector digital data</geoform>
+				<pubinfo>
+					<pubplace>Olympia, Washington, USA</pubplace>
+					<publish>Washington State Department of Transportation</publish>
+				</pubinfo>
+				<onlink>\\oscgis01\gis\GISOSC\GEODATA\MAPS\noscale\DOT_Cartog\pop_places\pop_places.shp</onlink>
+				<ftname Sync="TRUE">PopulatedPlaces</ftname></citeinfo>
+		</citation>
+		<descript>
+			<abstract>Points depict Washington State's populated places.  This data reflects information provided by the US Geological Survey's Geographic Names Information System (GNIS), the National Institute of Standards and Technology's  Federal Information Processing Standards, and  the Washington State Office of Financial Management's list of incorporated entities.</abstract>
+			<purpose>This data set is used as a reference layer for geographic information systems at the Washington State Department of Transportation.</purpose>
+			<supplinf>
+This data set can be queried to display types of populated places:  incorporated entities, unincorporated entities, named places within incorporated entities, and so forth.  Associated county information is also provided.
+
+Please refer to http://geonames.usgs.gov/gnisftp.html for more information on the Geographic Names Information System and to http://www.itl.nist.gov/fipspubs/fip55-3.htm for more information on the Federal Information Processing Standards codes.
+</supplinf>
+			<langdata Sync="TRUE">en</langdata></descript>
+		<timeperd>
+			<timeinfo>
+				<rngdates>
+					<begdate>1998</begdate>
+					<begtime>unknown</begtime>
+					<enddate>20010228</enddate>
+					<endtime>unknown</endtime>
+				</rngdates>
+			</timeinfo>
+			<current>ground condition</current>
+		</timeperd>
+		<status>
+			<progress>Complete</progress>
+			<update>Quarterly</update>
+		</status>
+		<spdom>
+			<bounding>
+				<westbc Sync="TRUE">-124.676902</westbc>
+				<eastbc Sync="TRUE">-116.959870</eastbc>
+				<northbc Sync="TRUE">49.000660</northbc>
+				<southbc Sync="TRUE">45.559837</southbc>
+			</bounding>
+			<lboundng><leftbc Sync="TRUE">-124.676902</leftbc><rightbc Sync="TRUE">-116.959870</rightbc><bottombc Sync="TRUE">45.559837</bottombc><topbc Sync="TRUE">49.000660</topbc></lboundng></spdom>
+		<keywords>
+			<theme>
+				<themekt>None</themekt>
+				<themekey>cities</themekey>
+				<themekey>incorporated places</themekey>
+				<themekey>fips</themekey>
+				<themekey>unincorporated</themekey>
+				<themekey>GNIS</themekey>
+				<themekey>populated places</themekey>
+			</theme>
+			<place>
+				<placekt>None</placekt>
+				<placekey>Pacific Northwest</placekey>
+				<placekey>United States</placekey>
+				<placekey>USA</placekey>
+				<placekey>WA</placekey>
+				<placekey>Washington</placekey>
+			</place>
+		</keywords>
+		<accconst>none</accconst>
+		<useconst>none</useconst>
+		<ptcontac>
+			<cntinfo>
+				<cntorgp>
+					<cntorg>Washington State Department of Transportation</cntorg>
+					<cntper>Michelle Blake</cntper>
+				</cntorgp>
+				<cntpos>GIS Data Administrator</cntpos>
+				<cntaddr>
+					<addrtype>mailing address</addrtype>
+					<address>PO Box 47430</address>
+					<city>Olympia</city>
+					<state>WA</state>
+					<postal>98504-7430</postal>
+					<country>USA</country>
+				</cntaddr>
+				<cntaddr>
+					<addrtype>physical address</addrtype>
+					<address>809 Legion Way SE</address>
+					<city>Olympia</city>
+					<state>WA</state>
+					<postal>98501</postal>
+					<country>USA</country>
+				</cntaddr>
+				<cntvoice>360-705-7797</cntvoice>
+				<cntfax>360-705-6817</cntfax>
+				<cntemail>blakem@wsdot.wa.gov</cntemail>
+				<cntinst>Call, email or write with requests for geo-spatial data sets.</cntinst>
+			</cntinfo>
+		</ptcontac>
+		<native Sync="TRUE">Microsoft Windows Vista Version 6.0 (Build 6002) Service Pack 2; ESRI ArcCatalog 9.3.1.3000</native>
+		<crossref>
+			<citeinfo>
+				<origin>GIS Implementation Team, Washington State Department of Transportation</origin>
+				<pubdate>19960501</pubdate>
+				<title>Major Cities of Washington State</title>
+				<geoform>map</geoform>
+				<pubinfo>
+					<pubplace>Olympia, Washington, USA</pubplace>
+					<publish>Washington State Department of Transportation</publish>
+				</pubinfo>
+			</citeinfo>
+		</crossref>
+		<natvform Sync="TRUE">Shapefile</natvform></idinfo>
+	<dataqual>
+		<attracc>
+			<attraccr>City names' spellings are as specified by the Washington State Office of Financial Management.  Federal Information Processing Standards (FIPS) codes are as provided by download from the National Institute of Standards and Technology web site.  Populated Place names for nonincorporated places are as provided by the Geographic Names Information System.</attraccr>
+		</attracc>
+		<complete>
+The data represent every city known to be incorporated in the State of Washington as of the date of
+currency.  The data set includes all populated places provided by the United States Geological Survey's Geographic Names Information System for Washington State.
+</complete>
+		<lineage>
+			<srcinfo>
+				<srccite>
+					<citeinfo>
+						<origin>National Institute of Standards and Technology</origin>
+						<pubdate>1998</pubdate>
+						<title>WAFIPS55-DC3</title>
+						<pubinfo>
+							<pubplace>Gaithersburg, Maryland, USA</pubplace>
+							<publish>National Institute of Standards and Technology</publish>
+						</pubinfo>
+						<onlink>http://www.itl.nist.gov/fipspubs/55new/nav-top-fr.htm</onlink>
+					</citeinfo>
+				</srccite>
+				<srctime>
+					<timeinfo>
+						<sngdate>
+							<caldate>1998</caldate>
+							<time>unknown</time>
+						</sngdate>
+					</timeinfo>
+					<srccurr>publication date</srccurr>
+				</srctime>
+				<srccitea>WAFIPS55</srccitea>
+				<srccontr>The Federal Information Processing Standard codes for and the types of Washington State's populated places.</srccontr>
+			</srcinfo>
+			<srcinfo>
+				<srccite>
+					<citeinfo>
+						<origin>United States Geological Survey, Geographic Names Information System</origin>
+						<pubdate>2/24/2000</pubdate>
+						<title>Geographic Names Information System - Washington</title>
+						<geoform>table</geoform>
+						<pubinfo>
+							<pubplace>United States Geological Survey</pubplace>
+							<publish>Reston, Virginia USA</publish>
+						</pubinfo>
+					</citeinfo>
+				</srccite>
+				<srctime>
+					<timeinfo>
+						<sngdate>
+							<caldate>20000224</caldate>
+							<time>Unknown</time>
+						</sngdate>
+					</timeinfo>
+					<srccurr>publication date</srccurr>
+				</srctime>
+				<srccitea>GNIS_WA</srccitea>
+				<srccontr>The Populated Place Names for Washington State.</srccontr>
+			</srcinfo>
+			<srcinfo>
+				<srccite>
+					<citeinfo>
+						<origin>GIS/Cartography Section, Washington State Department of Transportation</origin>
+						<pubdate>3/13/2002</pubdate>
+						<title>City Limits of Washington State, February 2001</title>
+						<geoform>map</geoform>
+						<pubinfo>
+							<pubplace>Olympia, Washington, USA</pubplace>
+							<publish>Washington State Department of Transportation</publish>
+						</pubinfo>
+					</citeinfo>
+				</srccite>
+				<srcscale>24000</srcscale>
+				<typesrc>online</typesrc>
+				<srctime>
+					<timeinfo>
+						<sngdate>
+							<caldate>20010228</caldate>
+							<time>Unknown</time>
+						</sngdate>
+					</timeinfo>
+					<srccurr>ground condition</srccurr>
+				</srctime>
+				<srccitea>city.shp</srccitea>
+				<srccontr>The Washington State Office of Financial Management's list of Washington State's incorporated entities.</srccontr>
+			</srcinfo>
+			<procstep>
+				<procdesc>The Geographic Names Information System extract for Washington State was downloaded from the USGS' FTP Site (http://geonames.usgs.gov/gnisftp.html).  The Latitude and Longitude information were converted to decimal degrees for use in GIS.  The table was queried as to geographic type to extract all "ppl" (populated places).  A composite key was formed, concatenating the populated place and its county.  This table was then joined to a similarly created field in a table originally downloaded from the National Institue of Standards and Technology which contained Federal Information Processing Standards codes for Washington State.  The resultant table was then compared to the Washington State Office of Financial Management's list of incorporated entities to ensure that all incorporated entities were coded as such and that all city names corresponded to those recognized by the State of Washington.  The table was then placed as an event theme in ArcView and converted to an ESRI shape file.</procdesc>
+				<srcused>WAFIPS55</srcused>
+				<srcused>GNIS_WA</srcused>
+				<srcused>city.shp</srcused>
+				<procdate>3/19/2002</procdate>
+				<proccont>
+					<cntinfo>
+						<cntorgp>
+							<cntorg>Washington State Department of Transportation</cntorg>
+							<cntper>Michelle Blake</cntper>
+						</cntorgp>
+						<cntpos>GIS Data Administrator</cntpos>
+						<cntaddr>
+							<addrtype>mailing address</addrtype>
+							<address>PO Box 47430</address>
+							<city>Olympia</city>
+							<state>WA</state>
+							<postal>98504-7430</postal>
+							<country>USA</country>
+						</cntaddr>
+						<cntaddr>
+							<addrtype>physical address</addrtype>
+							<address>809 Legion Way SE</address>
+							<city>Olympia</city>
+							<state>WA</state>
+							<postal>98501</postal>
+							<country>USA</country>
+						</cntaddr>
+						<cntvoice>360-705-7797</cntvoice>
+						<cntfax>360-705-6817</cntfax>
+						<cntemail>blakem@wsdot.wa.gov</cntemail>
+						<cntinst>Call, email or write with requests for geo-spatial data sets.</cntinst>
+					</cntinfo>
+				</proccont>
+			</procstep>
+			<procstep>
+				<procdesc>Metadata imported.</procdesc>
+				<srcused>C:\DOCUME~1\BlakeM\LOCALS~1\Temp\xml2DD.tmp</srcused>
+			</procstep>
+			<procstep><procdesc Sync="TRUE">Metadata imported.</procdesc><srcused Sync="TRUE">C:\DOCUME~1\BlakeM\LOCALS~1\Temp\xml2E0.tmp</srcused><date Sync="TRUE">20030425</date><time Sync="TRUE">10425300</time></procstep><procstep><procdesc Sync="TRUE">Dataset copied.</procdesc><srcused Sync="TRUE"></srcused><date Sync="TRUE">20040621</date><time Sync="TRUE">08283400</time></procstep><procstep><procdesc Sync="TRUE">Dataset copied.</procdesc><srcused Sync="TRUE">C:\Data\Washington\pop_places\pop_places</srcused><procdate Sync="TRUE">20100102</procdate><proctime Sync="TRUE">09404100</proctime></procstep><procstep><procdesc Sync="TRUE">Dataset copied.</procdesc><srcused Sync="TRUE"></srcused><procdate Sync="TRUE">20100102</procdate><proctime Sync="TRUE">10315100</proctime></procstep><procstep><procdesc Sync="TRUE">Dataset copied.</procdesc><srcused Sync="TRUE">C:\Data\Project2_Practice\PopulatedPlaces</srcused><procdate Sync="TRUE">20100102</procdate><proctime Sync="TRUE">10321500</proctime></procstep></lineage>
+		<cloud>0</cloud>
+	</dataqual>
+	<spdoinfo>
+		<direct Sync="TRUE">Vector</direct>
+		<ptvctinf>
+			<sdtsterm Name="PopulatedPlaces">
+				<sdtstype Sync="TRUE">Entity point</sdtstype>
+				<ptvctcnt Sync="TRUE">2576</ptvctcnt>
+			</sdtsterm>
+			<esriterm Name="PopulatedPlaces"><efeatyp Sync="TRUE">Simple</efeatyp><efeageom Sync="TRUE">Point</efeageom><esritopo Sync="TRUE">FALSE</esritopo><efeacnt Sync="TRUE">2576</efeacnt><spindex Sync="TRUE">TRUE</spindex><linrefer Sync="TRUE">FALSE</linrefer></esriterm></ptvctinf>
+	</spdoinfo>
+	<spref>
+		<horizsys>
+			<geograph>
+				<latres Sync="TRUE">0.000000</latres>
+				<longres Sync="TRUE">0.000000</longres>
+				<geogunit Sync="TRUE">Decimal degrees</geogunit>
+			</geograph>
+			<geodetic>
+				<horizdn Sync="TRUE">D_North_American_1983_HARN</horizdn>
+				<ellips Sync="TRUE">Geodetic Reference System 80</ellips>
+				<semiaxis Sync="TRUE">6378137.000000</semiaxis>
+				<denflat Sync="TRUE">298.257222</denflat>
+			</geodetic>
+			<cordsysn><geogcsn Sync="TRUE">GCS_North_American_1983_HARN</geogcsn></cordsysn></horizsys>
+	</spref>
+	<eainfo>
+		<detailed Name="PopulatedPlaces">
+			<enttyp>
+				<enttypl Sync="TRUE">PopulatedPlaces</enttypl>
+				<enttypd>Entities included in the US Geological Survey's Geographic Names Information System as the feature type ""ppl."</enttypd>
+				<enttypds>United States Geological Survey's Geographic Names Information System</enttypds>
+				<enttypt Sync="TRUE">Feature Class</enttypt><enttypc Sync="TRUE">2576</enttypc></enttyp>
+			<attr>
+				<attrlabl Sync="TRUE">FID</attrlabl>
+				<attrdef Sync="TRUE">Internal feature number.</attrdef>
+				<attrdefs Sync="TRUE">ESRI</attrdefs>
+				<attrdomv>
+					<udom Sync="TRUE">Sequential unique whole numbers that are automatically generated.</udom>
+				</attrdomv>
+				<attalias Sync="TRUE">FID</attalias><attrtype Sync="TRUE">OID</attrtype><attwidth Sync="TRUE">4</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr>
+			<attr>
+				<attrlabl Sync="TRUE">Shape</attrlabl>
+				<attrdef Sync="TRUE">Feature geometry.</attrdef>
+				<attrdefs Sync="TRUE">ESRI</attrdefs>
+				<attrdomv>
+					<udom Sync="TRUE">Coordinates defining the features.</udom>
+				</attrdomv>
+				<attalias Sync="TRUE">Shape</attalias><attrtype Sync="TRUE">Geometry</attrtype><attwidth Sync="TRUE">0</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr>
+			<attr>
+				<attrlabl Sync="TRUE">AREA</attrlabl>
+				<attalias Sync="TRUE">AREA</attalias><attrtype Sync="TRUE">Number</attrtype><attwidth Sync="TRUE">15</attwidth><atnumdec Sync="TRUE">3</atnumdec></attr>
+			<attr>
+				<attrlabl Sync="TRUE">PERIMETER</attrlabl>
+				<attalias Sync="TRUE">PERIMETER</attalias><attrtype Sync="TRUE">Number</attrtype><attwidth Sync="TRUE">15</attwidth><atnumdec Sync="TRUE">3</atnumdec></attr>
+			<attr>
+				<attrlabl Sync="TRUE">POP_PLACES</attrlabl>
+				<attalias Sync="TRUE">POP_PLACES</attalias><attrtype Sync="TRUE">Number</attrtype><attwidth Sync="TRUE">11</attwidth></attr>
+			<attr>
+				<attrlabl Sync="TRUE">POP_PLAC_1</attrlabl>
+				<attalias Sync="TRUE">POP_PLAC_1</attalias><attrtype Sync="TRUE">Number</attrtype><attwidth Sync="TRUE">11</attwidth></attr>
+			<attr>
+				<attrlabl Sync="TRUE">ST</attrlabl>
+				<attrdef>Abbreviation for the State of Washington - "WA."</attrdef>
+				<attrdefs>United States Geological Survey's Geographic Names Information System</attrdefs>
+				<begdatea>2/24/2000</begdatea>
+				<attalias Sync="TRUE">ST</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">3</attwidth></attr>
+			<attr>
+				<attrlabl Sync="TRUE">F_NAME</attrlabl>
+				<attrdef>The name of the populated place.</attrdef>
+				<attrdefs>
+Legal documents of incorporation, annexation and divestment at the Washington State Office of
+Financial Management and the United States Geological Survey's Geographic Names Information System
+</attrdefs>
+				<attrdomv>
+					<udom>Names used for cities are words or phrases accepted by the Washington State Office of Financial Management.</udom>
+				</attrdomv>
+				<begdatea>2/24/2000</begdatea>
+				<enddatea>2/28/2001</enddatea>
+				<attalias Sync="TRUE">F_NAME</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">51</attwidth></attr>
+			<attr>
+				<attrlabl Sync="TRUE">F_TYPE</attrlabl>
+				<attrdef>Feature type.  "PPL" is the code for Populated Place in the Geographic Names Information System.</attrdef>
+				<attrdefs>United States Geological Survey's Geographic Names Information System</attrdefs>
+				<begdatea>2/24/2000</begdatea>
+				<attalias Sync="TRUE">F_TYPE</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">10</attwidth></attr>
+			<attr>
+				<attrlabl Sync="TRUE">CO</attrlabl>
+				<attrdef>The county in which the Populated Place resides.</attrdef>
+				<attrdefs>United States Geological Survey's Geographic Names Information System</attrdefs>
+				<begdatea>2/24/2000</begdatea>
+				<attalias Sync="TRUE">CO</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">16</attwidth></attr>
+			<attr>
+				<attrlabl Sync="TRUE">ELEV</attrlabl>
+				<attrdef>The Elevation of the Populated Place in feet.</attrdef>
+				<attrdefs>United States Geological Survey's Geographic Names Information System</attrdefs>
+				<attalias Sync="TRUE">ELEV</attalias><attrtype Sync="TRUE">Number</attrtype><attwidth Sync="TRUE">19</attwidth><atnumdec Sync="TRUE">5</atnumdec></attr>
+			<attr>
+				<attrlabl Sync="TRUE">CELL</attrlabl>
+				<attrdef>The cell in which the Populated Place can be found.</attrdef>
+				<attrdefs>United States Geological Survey's Geographic Names Information System</attrdefs>
+				<begdatea>2/24/2000</begdatea>
+				<attalias Sync="TRUE">CELL</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">27</attwidth></attr>
+			<attr>
+				<attrlabl Sync="TRUE">LAT_DD</attrlabl>
+				<attrdef>The point's latitude in decimal degrees.</attrdef>
+				<attrdefs>United States Geological Survey's Geographic Names Information System and Data Management Services, Washington State Department of Transportation</attrdefs>
+				<begdatea>2/24/2000</begdatea>
+				<attalias Sync="TRUE">LAT_DD</attalias><attrtype Sync="TRUE">Number</attrtype><attwidth Sync="TRUE">19</attwidth><atnumdec Sync="TRUE">6</atnumdec></attr>
+			<attr>
+				<attrlabl Sync="TRUE">LONG_DD</attrlabl>
+				<attrdef>The point's longitude in decimal degrees.</attrdef>
+				<attrdefs>United States Geological Survey's Geographic Names Information System and Data Management Services, Washington State Department of Transportation</attrdefs>
+				<begdatea>2/24/2000</begdatea>
+				<attalias Sync="TRUE">LONG_DD</attalias><attrtype Sync="TRUE">Number</attrtype><attwidth Sync="TRUE">19</attwidth><atnumdec Sync="TRUE">6</atnumdec></attr>
+			<attr>
+				<attrlabl Sync="TRUE">FIPS</attrlabl>
+				<attrdef>The populated place's Federal Information Processing Standards code - a five-digit  place code, which when preceded by the two digit state code (53 for Washington),  uniquely identifies each listed entity.</attrdef>
+				<attrdefs>National Institute of Standards and Technology</attrdefs>
+				<begdatea>1998</begdatea>
+				<attalias Sync="TRUE">FIPS</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">7</attwidth></attr>
+			<attr>
+				<attrlabl Sync="TRUE">CORP</attrlabl>
+				<attrdef>Populated Place Type as defined by the Federal Information Processing Standards with updates to reflect recent incorporations in Washington State.</attrdef>
+				<attrdefs>
+National Institute of Standards and Technology and  Legal documents of incorporation, annexation and divestment at the Washington State Office of
+Financial Management
+</attrdefs>
+				<attrdomv>
+					<edom>
+						<edomv>C1</edomv>
+						<edomvd>C1:Identifies an active incorporated place that is not also recognized as an Alaska Native Village statistical area, and does not also serve as a primary county division; that is, it is included in and is part of a primary county division.</edomvd>
+					</edom>
+					<edom>
+						<edomv>C4</edomv>
+						<edomvd>C4:Identifies an alternate authoritative common name of any member of the other subclasses of Class C. The entity code of the legal name is referenced in the ``Other Name Code'' of the record, and in the entry for the legal name, the Other Name Code references the alternate.</edomvd>
+					</edom>
+					<edom>
+						<edomv>U1</edomv>
+						<edomvd>U1:Identifies a census designated place (CDP) with a name identical to the authoritative common name that describes essentially the same population. Also see subclass M2.</edomvd>
+					</edom>
+					<edom>
+						<edomv>U2</edomv>
+						<edomvd>U2:Identifies a CDP (Census Designated Place) with a name not identical to an authoritative common name of essentially the same area.</edomvd>
+					</edom>
+					<edom>
+						<edomv>U3</edomv>
+						<edomvd>U3:Identifies (a) an alternate, authoritative common name of a population essentially described by a specific CDP with a different name (the Other Name Code references the CDP), or (b) a community wholly or substantially within the boundaries of a CDP with a different name (the Part of Code references the CDP).</edomvd>
+					</edom>
+					<edom>
+						<edomv>U4</edomv>
+						<edomvd>U4:Identifies a populated place wholly or substantially within the boundaries of an incorporated place with a different name</edomvd>
+					</edom>
+					<edom>
+						<edomv>U6</edomv>
+						<edomvd>U6:Identifies a populated place located wholly or substantially outside the boundaries of any incorporated place or CDP with an authoritative common name recognized by the U.S. Geological Survey.</edomvd>
+					</edom>
+					<edom>
+						<edomv>U8</edomv>
+						<edomvd>U8:Identifies a populated place located wholly or substantially outside the boundaries of an incorporated place or CDP but whose name has not been verified as authoritative by the U.S. Geological Survey.</edomvd>
+					</edom>
+					<edom>
+						<edomv>B</edomv>
+						<edomvd>
+B:Post Offices Not Corresponding to Other Locational Entities
+Post office names identified in this class are only those that do not identify entities included in another class
+</edomvd>
+					</edom>
+					<edom>
+						<edomv>X2</edomv>
+						<edomvd>X2:Identifies entities whose names have been changed and are not appropriate in any other subclass; the new name is referenced by the Other Name Code.</edomvd>
+					</edom>
+					<edom>
+						<edomv>X3</edomv>
+						<edomvd>X3:Identifies entities whose names are incorrect or less preferred, and are not appropriate in any other (sub)class, or entities for which more specific information that would permit assignment to an appropriate (sub)class is not available; the correct or preferred name, where known, is referenced by the Other Name Code.</edomvd>
+					</edom>
+				</attrdomv>
+				<begdatea>1998</begdatea>
+				<enddatea>2/28/2001</enddatea>
+				<attalias Sync="TRUE">CORP</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">3</attwidth></attr>
+			<attr>
+				<attrlabl Sync="TRUE">CO_FIPS</attrlabl>
+				<attrdef>The county Federal Information Processing Standards code - a three-digit  place code, which when preceded by the two digit state code (53 for Washington) and ""99"",  uniquely identifies each listed entity.</attrdef>
+				<attrdefs>National Institute of Standards and Technology</attrdefs>
+				<begdatea>1998</begdatea>
+				<attalias Sync="TRUE">CO_FIPS</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">3</attwidth></attr>
+		</detailed>
+		<overview>
+			<eaover>Points depict Populated Places in the State of Washington.  Each point is attributed with the populated place's name, county, Federal Information Processing Standards code, elevation, type, and locational information.</eaover>
+		</overview>
+	</eainfo>
+	<distinfo>
+		<distrib>
+			<cntinfo>
+				<cntorgp>
+					<cntorg>Washington State Department of Transportation</cntorg>
+					<cntper>Michelle Blake</cntper>
+				</cntorgp>
+				<cntpos>GIS Data Administrator</cntpos>
+				<cntaddr>
+					<addrtype>mailing address</addrtype>
+					<address>PO Box 47430</address>
+					<city>Olympia</city>
+					<state>WA</state>
+					<postal>98504-7430</postal>
+					<country>USA</country>
+				</cntaddr>
+				<cntaddr>
+					<addrtype>physical address</addrtype>
+					<address>809 Legion Way SE</address>
+					<city>Olympia</city>
+					<state>WA</state>
+					<postal>98501</postal>
+					<country>USA</country>
+				</cntaddr>
+				<cntvoice>360-705-7797</cntvoice>
+				<cntfax>360-705-6817</cntfax>
+				<cntemail>blakem@wsdot.wa.gov</cntemail>
+				<cntinst>Call, email or write with requests for geo-spatial data sets.</cntinst>
+			</cntinfo>
+		</distrib>
+		<resdesc>\gisosc\geodata\maps\noscale\dot_cartog\pop_places\pop_places.shp</resdesc>
+		<distliab>The Washington State Department of Transportation shall not be liable for any activity involving these data with regard to lost profits or savings or any other consequential damages; or the fitness for use of the data for a particular purpose; or the installation of the data, its use, or the results obtained.</distliab>
+		<stdorder>
+			<digform>
+				<digtinfo>
+					<formspec>Various formats are used: ESRI coverages and shapefiles, and data tables for placement as ArcView "events."</formspec>
+					<formcont>
+The standard distribution compact disc contains all geospatial data sets created by the Washington State Dept. of Transportation. Refer to the included Geodata.txt text file for a brief description of the directory structure.
+Data formats vary--most data are stored as ESRI shape files, but some data models require coverages. There are also dbf-format tables of data located by geographic coordinates or State Route Accumulated Route Mileage.
+</formcont>
+					<transize>0.685</transize>
+					<dssize Sync="TRUE">0.069</dssize></digtinfo>
+				<digtopt>
+					<offoptn>
+						<offmedia>CD-ROM</offmedia>
+					</offoptn>
+				</digtopt>
+			</digform>
+			<fees>none</fees>
+			<ordering>Call, email or write the Distributor with requests for geo-spatial data sets.</ordering>
+			<turnarnd>Generally, the standard compact disc containing all distributed data can be sent within one week of receiving a data request.</turnarnd>
+		</stdorder>
+		<stdorder>
+			<digform>
+				<digtinfo>
+					<formname>self-extracting zip file</formname>
+					<formvern>6.3 SR-1 (926) 32-bit</formvern>
+					<formspec>WinZip</formspec>
+					<formcont>Depends on the data set. Arc/Info coverage or shape file; metadata report in html and text files; and, in some cases, a data dictionary text file. Some data sets in the standard distribution are tabular data for placement as ArcView "events."</formcont>
+					<filedec>Run the "exe" file under Windows NT.</filedec>
+					<transize>0.685</transize>
+					<dssize Sync="TRUE">0.069</dssize></digtinfo>
+				<digtopt>
+					<onlinopt>
+						<accinstr>Use anonymous FTP login or web browser download on the URL specified under Network Address.</accinstr>
+						<oncomp>Unix</oncomp>
+					</onlinopt>
+				</digtopt>
+			</digform>
+			<fees>none</fees>
+			<ordering>Download individual data sets from ftp://ftp.wsdot.wa.gov/gis/GeoDataDistribution</ordering>
+		</stdorder>
+		<stdorder>
+			<nondig>The Cartography/GIS Section can plot maps of most geospatial data sets.</nondig>
+			<digform>
+				<digtinfo>
+					<transize>0.685</transize>
+					<dssize Sync="TRUE">0.069</dssize></digtinfo>
+			</digform>
+			<fees>depend on plotting costs.</fees>
+			<ordering>Contact the Point of Contact listed under the Identification Section to determine the availability of this data set in a non-digital representation.</ordering>
+		</stdorder>
+		<availabl>
+			<timeinfo>
+				<sngdate>
+					<caldate>unknown</caldate>
+				</sngdate>
+			</timeinfo>
+		</availabl>
+	</distinfo>
+	<metainfo>
+		<metd Sync="TRUE">20100102</metd>
+		<metc>
+			<cntinfo>
+				<cntorgp>
+					<cntorg>Washington State Department of Transportation</cntorg>
+					<cntper>Michelle Blake</cntper>
+				</cntorgp>
+				<cntpos>GIS Data Administrator</cntpos>
+				<cntaddr>
+					<addrtype>mailing address</addrtype>
+					<address>PO Box 47430</address>
+					<city>Olympia</city>
+					<state>WA</state>
+					<postal>98504-7430</postal>
+					<country>USA</country>
+				</cntaddr>
+				<cntaddr>
+					<addrtype>physical address</addrtype>
+					<address>809 Legion Way SE</address>
+					<city>Olympia</city>
+					<state>WA</state>
+					<postal>98501</postal>
+					<country>USA</country>
+				</cntaddr>
+				<cntvoice>360-705-7797</cntvoice>
+				<cntfax>360-705-6817</cntfax>
+				<cntemail>blakem@wsdot.wa.gov</cntemail>
+				<cntinst>Call, email or write with requests for geo-spatial data sets.</cntinst>
+			</cntinfo>
+		</metc>
+		<metstdn Sync="TRUE">FGDC Content Standards for Digital Geospatial Metadata</metstdn>
+		<metstdv Sync="TRUE">FGDC-STD-001-1998</metstdv>
+		<mettc Sync="TRUE">local time</mettc>
+		<metac>none</metac>
+		<metuc>none</metuc>
+		<metextns>
+			<onlink>http://www.esri.com/metadata/esriprof80.html</onlink>
+			<metprof>ESRI Metadata Profile</metprof>
+		</metextns>
+		<langmeta Sync="TRUE">en</langmeta><metextns><onlink Sync="TRUE">http://www.esri.com/metadata/esriprof80.html</onlink><metprof Sync="TRUE">ESRI Metadata Profile</metprof></metextns></metainfo>
+	<Esri><CreaDate>20100102</CreaDate><CreaTime>10321500</CreaTime><SyncOnce>FALSE</SyncOnce><SyncDate>20100102</SyncDate><SyncTime>09435700</SyncTime><ModDate>20100102</ModDate><ModTime>09435700</ModTime><DataProperties><lineage><Process ToolSource="C:\Program Files\ArcGIS\ArcToolbox\Toolboxes\Data Management Tools.tbx\Project" Date="20100102" Time="103151">Project C:\Data\Project2_Practice\PopulatedPlaces.shp C:\Data\Project2_Practice\PopulatedPlaces_Project.shp GEOGCS['GCS_North_American_1983',DATUM['D_North_American_1983',SPHEROID['GRS_1980',6378137.0,298.257222101]],PRIMEM['Greenwich',0.0],UNIT['Degree',0.0174532925199433]] NAD_1983_To_HARN_OR_WA GEOGCS['GCS_North_American_1983_HARN',DATUM['D_North_American_1983_HARN',SPHEROID['GRS_1980',6378137.0,298.257222101]],PRIMEM['Greenwich',0.0],UNIT['Degree',0.0174532925199433]]</Process></lineage></DataProperties><MetaID>{1E086BD2-1A8D-4B78-AE45-5EA473AD97D4}</MetaID></Esri><dataIdInfo><envirDesc Sync="TRUE">Microsoft Windows Vista Version 6.0 (Build 6002) Service Pack 2; ESRI ArcCatalog 9.3.1.3000</envirDesc><dataLang><languageCode Sync="TRUE" value="en"></languageCode></dataLang><idCitation><resTitle Sync="TRUE">PopulatedPlaces</resTitle><presForm><PresFormCd Sync="TRUE" value="005"></PresFormCd></presForm></idCitation><spatRpType><SpatRepTypCd Sync="TRUE" value="001"></SpatRepTypCd></spatRpType><geoBox esriExtentType="decdegrees"><westBL Sync="TRUE">-124.676902</westBL><eastBL Sync="TRUE">-116.95987</eastBL><northBL Sync="TRUE">49.00066</northBL><southBL Sync="TRUE">45.559837</southBL><exTypeCode Sync="TRUE">1</exTypeCode></geoBox><dataExt><geoEle><GeoBndBox esriExtentType="native"><westBL Sync="TRUE">-124.676902</westBL><eastBL Sync="TRUE">-116.95987</eastBL><northBL Sync="TRUE">49.00066</northBL><southBL Sync="TRUE">45.559837</southBL><exTypeCode Sync="TRUE">1</exTypeCode></GeoBndBox></geoEle></dataExt></dataIdInfo><mdLang><languageCode Sync="TRUE" value="en"></languageCode></mdLang><mdStanName Sync="TRUE">ISO 19115 Geographic Information - Metadata</mdStanName><mdStanVer Sync="TRUE">DIS_ESRI1.0</mdStanVer><mdChar><CharSetCd Sync="TRUE" value="004"></CharSetCd></mdChar><mdHrLv><ScopeCd Sync="TRUE" value="005"></ScopeCd></mdHrLv><mdHrLvName Sync="TRUE">dataset</mdHrLvName><distInfo><distributor><distorTran><onLineSrc><orDesc Sync="TRUE">002</orDesc><linkage Sync="TRUE">file://\\ASROCK\C$\Data\Project2_Originals\PopulatedPlacesCopy</linkage><protocol Sync="TRUE">Local Area Network</protocol></onLineSrc><transSize Sync="TRUE">0.069</transSize></distorTran><distorFormat><formatName Sync="TRUE">Shapefile</formatName></distorFormat></distributor></distInfo><refSysInfo><RefSystem><refSysID><identCode Sync="TRUE">GCS_North_American_1983_HARN</identCode></refSysID></RefSystem></refSysInfo><spatRepInfo><VectSpatRep><topLvl><TopoLevCd Sync="TRUE" value="001"></TopoLevCd></topLvl><geometObjs Name="PopulatedPlaces"><geoObjTyp><GeoObjTypCd Sync="TRUE" value="004"></GeoObjTypCd></geoObjTyp><geoObjCnt Sync="TRUE">2576</geoObjCnt></geometObjs></VectSpatRep></spatRepInfo><mdDateSt Sync="TRUE">20100102</mdDateSt></metadata>
