@@ -17,5 +17,13 @@ arcpy.SelectLayerByLocation_management('osm', 'WITHIN', 'country')
 for shel in amenity:
     arcpy.MakeFeatureLayer_management('osm',shel+'1','"amenity"='+"' "+shel+"'")
     #arcpy.FeatureClassToShapefile_conversion(str(shel), workspace)
-    arcpy.CopyFeatures_management(shel+'1', out_name + '\\' + str(shel))
+    arcpy.CopyFeatures_management(shel+'1', out_name + '\\' + str(shel)+'elSalvador')
     arcpy.AddField_management(out_name + '\\' + str(shel),'source','TEXT')
+    arcpy.AddMessage('Amenities in'+str(country)+' ' +str(shel) +' type are found')
+'''
+fcList = arcpy.ListFeatureClasses()
+for fc in fcList:
+    cursor=arcpy.InsertCursor(fc)
+    for row in cursor:
+        row.setValue('source','OpenStreetMap')
+        cursor.updateRow(row)'''
