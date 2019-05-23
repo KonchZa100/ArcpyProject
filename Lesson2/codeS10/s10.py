@@ -9,14 +9,14 @@ folderToExamine=r'F:\Demidov\PythEveryone\PyCharmProject\Lesson2\PractiseData\Re
 targetSR=arcpy.Describe(targetFC).spatialReference.name
 #targetSRName=targetSR.SpatialReference.Name
 print targetSR
-'''
+
 arcpy.env.workspace = folderToExamine
 listOfFCs = arcpy.ListFeatureClasses()
 
 for currentFC in listOfFCs:
     currentFCSRName = arcpy.Describe(currentFC).SpatialReference.Name
-    if currentFCSRName != targetSRName:
+    if currentFCSRName != targetSR:
         outCS = arcpy.SpatialReference('NAD 1983 UTM Zone 10N')
         rootName = currentFC[:-4] + "_projected.shp"
         arcpy.Project_management(currentFC, rootName, outCS)
-        arcpy.AddMessage(rootName)'''
+        arcpy.AddMessage(rootName)
