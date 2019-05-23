@@ -3,10 +3,10 @@ import os
 
 arcpy.env.overwriteOutput = True
 
-targetFC=r'F:\Demidov\PythEveryone\PyCharmProject\Lesson2\CountyLines.shp'
+targetFC=r'F:\Demidov\PythEveryone\PyCharmProject\Lesson2\s10.gdb\CountyLines'
 folderToExamine=r'F:\Demidov\PythEveryone\PyCharmProject\Lesson2\PractiseData\Result'
 
-targetSR=arcpy.Describe(targetFC).spatialReference
+targetSR=arcpy.Describe(targetFC).spatialReference.name
 #targetSRName=targetSR.SpatialReference.Name
 print targetSR
 '''
