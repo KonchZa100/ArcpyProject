@@ -13,3 +13,5 @@ arcpy.CreateFileGDB_management(workspace, out_name)
 
 arcpy.MakeFeatureLayer_management(points,'osm')
 arcpy.MakeFeatureLayer_management(poligon,'country', '"NAME" =' + "'" + country + "'")
+
+arcpy.SelectLayerByLocation_management('osm', 'WITHIN', 'country')
