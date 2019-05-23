@@ -10,3 +10,6 @@ out_name = r'F:\Demidov\PythEveryone\PyCharmProject\s12\Geodatabase.gdb'
 
 arcpy.env.workspace = workspace
 arcpy.CreateFileGDB_management(workspace, out_name)
+
+arcpy.MakeFeatureLayer_management(points,'osm')
+arcpy.MakeFeatureLayer_management(poligon,'country', '"NAME" =' + "'" + country + "'")
