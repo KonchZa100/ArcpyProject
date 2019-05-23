@@ -7,3 +7,6 @@ amenities = ('school','hospital','place_of_worship')
 country = 'El Salvador'
 workspace= r'F:\Demidov\PythEveryone\PyCharmProject\s12'
 out_name = r'F:\Demidov\PythEveryone\PyCharmProject\s12\Geodatabase.gdb'
+
+arcpy.env.workspace = workspace
+arcpy.CreateFileGDB_management(workspace, out_name)
